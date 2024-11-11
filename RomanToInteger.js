@@ -7,7 +7,7 @@ class Solution {
             
         // }
         let bool  = false;
-        for(let indx in arrOfObj){
+        for(let indx =0; indx<arrOfObj.length; indx++){
             if(bool){
                 bool = false;
                 indx = 0;
@@ -17,6 +17,8 @@ class Solution {
                 s = s.slice(indx+1);
                 // indx = 0;
                 bool = true;
+            }else{
+                
             }
             // else{
             //     totalSum += arrOfObj[indx].value;
@@ -28,7 +30,8 @@ class Solution {
 }
 
 const romanObj =  new  Solution();
-console.log(romanObj.romanToDecimal('IV'));
+// console.log(romanObj.romanToDecimal('III'));
+console.log(romanObj.romanToDecimal('XIX'));
 
 
 // problem links

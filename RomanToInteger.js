@@ -3,9 +3,6 @@ class Solution {
         // code here
         let totalSum = 0;
         const arrOfObj =[{key: 'I', value: 1}, {key: 'V', value: 5}, {key: 'X', value: 10}, {key: 'L', value: 50}, {key: 'C', value: 100}, {key: 'D', value: 500}, {key: 'M', value: 1000}];
-        // if(s.length === 1){
-            
-        // }
         let bool  = false;
         for(let indx =0; indx<arrOfObj.length; indx++){
             if(bool){

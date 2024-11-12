@@ -1,5 +1,4 @@
 class Solution {
-    // Function returns the second largest element
     getSecondLargest(arr) {
         arr.sort((a,b)=> a-b);
         let set = new Set(arr);

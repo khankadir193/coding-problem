@@ -1,7 +1,5 @@
 class Solution {
-    // Function to find the leaders in the array.
     leaders(a) {
-        // code here
         let tempElement = a[a.length-1];
         const tempArr = [];
         tempArr.push(a[a.length-1]);

@@ -16,9 +16,9 @@ class Solution {
                 bool = true;
                 break;
             }
-            console.log(j);
         }
         if (bool) {
+            j = 0;
             for (let i = 2; i < 4; i++) {
                 if (s2.charAt(i) === tempStr.charAt(j)) {
                     j++;
@@ -36,4 +36,5 @@ class Solution {
 const strRotation = new Solution();
 // console.log(strRotation.isRotated("waterbottle", "terbottlewa")); // Output: true
 // console.log(strRotation.isRotated("geeksforgeeks", "geeksgeeksfor")); // Output: true
-console.log(strRotation.isRotated("daxjheq", "eqdaxjh"));
+// console.log(strRotation.isRotated("daxjheq", "eqdaxjh"));
+console.log(strRotation.isRotated("covinqcxof", "ofcovinqcx"));

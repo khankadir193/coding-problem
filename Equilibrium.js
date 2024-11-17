@@ -19,3 +19,5 @@ const equilibrium = new Solution();
 console.log(equilibrium.equilibriumPoint([1, 3, 5, 2, 2]));
 console.log(equilibrium.equilibriumPoint([1]));
 console.log(equilibrium.equilibriumPoint([1,2,3]));
+
+// https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?page=1&category=Data%20Structures&sortBy=submissions

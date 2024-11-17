@@ -28,6 +28,6 @@ class Solution {
 };
 
 const rChar = new Solution();
-// console.log(rChar.firstRepChar('geeksforgeeks'));
+console.log(rChar.firstRepChar('geeksforgeeks'));
 // console.log(rChar.firstRepChar('abdc'));
-console.log(rChar.firstRepChar('evjxpnqgmvfjl'));
+// console.log(rChar.firstRepChar('evjxpnqgmvfjl'));

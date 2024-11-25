@@ -3,9 +3,10 @@ function Stack(arr){
     console.log("Stack created with array: ", arr);
 };
 
-Stack.prototype.push = function (element){
+Stack.prototype.push = function (element,stackObj){
     console.log("Pushing element: ", element);
+    stackObj.arr.push(element);
 };
-
-const stack = new Stack([1 ,2 ,1 ,3 ,2 ,1 ,4 ,2]);
-stack.push(1);
+// [1 ,2 ,1 ,3 ,2 ,1 ,4 ,2]
+const stack = new Stack([]);
+stack.push(1,stack);

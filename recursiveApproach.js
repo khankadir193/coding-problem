@@ -1,10 +1,12 @@
+let counter = 1;
 function recursiveApproach (number){
     console.log('this is the recursive function...');
-    if(number === 5){
+    if(counter>number){
         return 'recursion has been finished...';
     }
-    number++;
-    recursiveApproach(number);
+    counter++;
+    recursiveApproach();
 }
 
-console.log('recursiveFunction',recursiveApproach(1));
+console.log('recursiveFunction',recursiveApproach(5));
+//concept based recursion call

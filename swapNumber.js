@@ -9,3 +9,17 @@ function swapNumber(){
 }
 
 swapNumber();
+
+
+const swapDestructuring = ()=>{
+    let a = 33;
+    let b = 34;
+
+    console.log(`Before Swap: a=${a} and b=${b}`);
+
+    // swap logic
+    [a,b] = [b,a];
+    console.log(`After Swapping: a=${a} and b=${b}`);
+}
+
+swapDestructuring();

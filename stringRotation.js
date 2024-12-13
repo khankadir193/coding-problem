@@ -38,3 +38,6 @@ const strRotation = new Solution();
 // console.log(strRotation.isRotated("geeksforgeeks", "geeksgeeksfor")); // Output: true
 // console.log(strRotation.isRotated("daxjheq", "eqdaxjh"));
 console.log(strRotation.isRotated("covinqcxof", "ofcovinqcx"));
+
+// js topics
+// https://github.com/leonardomso/33-js-concepts?tab=readme-ov-file#6-function-scope-block-scope-and-lexical-scope
